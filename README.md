@@ -1,22 +1,3 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
-
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
-<p align="center">
-  <kbd>
-<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
-  </kbd>
-</p>
-
-
-Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
-
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
-
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
-
 ## Table of Contents
 - [Sections](#sections)
 - [Getting Started](#getting-started)
@@ -40,11 +21,12 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Blogs\
 ✔️ Talks\
 ✔️ Podcast\
+✔️ Spotify\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here]()**.
 
 
 ## Getting Started
@@ -58,24 +40,18 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
-### Docker Commands
-
-```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
-```
 
 
 ## How To Use 
 
-From your command line, clone and run developerFolio:
+From your command line, clone and run My_Portfolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+$ git clone https://github.com/ankit1222000/My_Portfolio.git
 
 # Go into the repository
-$ cd developerFolio
+$ cd My_Portfolio
 
 # Install dependencies
 $ npm install
@@ -93,7 +69,7 @@ Generate a Github personal access token following these [instructions](https://h
 Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
 
 ```bash
-- DeveloperFolio
+- My_Portfolio
   - node_modules
   - public
   - src
@@ -115,12 +91,7 @@ Set `showGithubProfile` to true or false to show Contact Profile using Github, d
 
 **Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
-Note: Open Source Projects section only show pinned items of your Github.
-If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
-![ERROR](https://i.imgur.com/Hj6mu1K.png)
-
-If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
@@ -131,18 +102,18 @@ If the above solution still doesn't work, visit the [wiki page](https://github.c
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
+  title: "Hi all I'm Ankit",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "Your Drive Resume Link"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "Your Github Profile URL",
+  linkedin: "Your Linkedin Profile URL",
+  gmail: "Your Gmail Profile URL",
+  gitlab: "Your Gitlab Profile URL",
+  facebook: "Your Facebook Profile URL"
 };
 
 
@@ -194,7 +165,7 @@ This section guides you to deploy your portfolio on Github pages.
 
 - Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
 
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
+- In short you can also add `/My_Portfolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
