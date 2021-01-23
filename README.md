@@ -26,7 +26,7 @@
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://ankitbhatia.netlify.app/)**.
+To view a live example, **[click here](https://bhatiaankit.in/)**.
 
 
 ## Getting Started
@@ -151,33 +151,6 @@ const twitterDetails = {
 ```
 Note: Don't use `@` symbol when adding username.
 
-## Deployment
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
-
-#### Configuring GitHub Actions
-- Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
-- When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
-
-#### Deploying to Github Pages
-
-This section guides you to deploy your portfolio on Github pages.
-
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
-
-- In short you can also add `/My_Portfolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
-
-- Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
-
-- Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
 ## Technologies Used 
@@ -190,16 +163,9 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
-## Illustrations
-- [UnDraw](https://undraw.co/illustrations)
-- [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
 
 
 
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
