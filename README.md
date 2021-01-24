@@ -28,6 +28,8 @@
 
 To view a live example, **[click here](https://bhatiaankit.in/)**.
 
+https://user-images.githubusercontent.com/60085587/105640300-509bcc80-5ea3-11eb-9df8-cf9e648ce4e0.mp4
+
 
 ## Getting Started
 
